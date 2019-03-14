@@ -65,3 +65,4 @@ dist/bundle.js
 
 # Package.lock
 package-lock.json
+src/.DS_Store

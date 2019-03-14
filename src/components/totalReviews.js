@@ -52,7 +52,7 @@ class TotalReviews extends React.Component {
           </h2>
           <h3>Customer Rating</h3>
           <h1>{(averageStars(this.props.product.stars)).toFixed(1)}</h1>
-          <img style={starStyle} src={require('../starimages/3.png')}></img>
+          <img style={starStyle} src={`https://s3.us-east-2.amazonaws.com/reviews-hir-app/Star+Rating/3.png`}></img>
           <div>({JSON.stringify(sumReviews(this.props.product.stars))} reviews)</div>
           <br/>
           <div style={headerStyle}>See all customers reviews | Write a review </div>
